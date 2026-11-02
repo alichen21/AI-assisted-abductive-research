@@ -6,9 +6,9 @@ This repository brings together a research skill suite and an illustrative case 
 
 | Component | What it contains | Start here |
 | --- | --- | --- |
-| Research skill suite | Five English-language skills, installation tools, workflows, scripts, templates, and synthetic demonstrations. | [Skill suite overview](SKILL-SUITE.md) |
-| Zhang Xue / ZX Moto example | An English source archive and a case progress report tracing a hunch through theory–evidence comparisons to a refined question. | [Illustrative case](examples/zhang-xue/README.md) |
-| Source data | The 29 supplied English article files, source metadata, and original publication links. | [Data guide](examples/zhang-xue/data/README.md) |
+| Research skill suite | Five research skills, installation tools, workflows, scripts, templates, and synthetic demonstrations. | [Skill suite overview](SKILL-SUITE.md) |
+| Zhang Xue / ZX Moto example | A source archive and a case progress report tracing a hunch through theory–evidence comparisons to a refined question. | [Illustrative case](examples/zhang-xue/README.md) |
+| Source data | The 29 archived article files, source metadata, and original publication links. | [Data guide](examples/zhang-xue/data/README.md) |
 | Provisional analytical outcome | The report and a short explanation of the current outcome and remaining uncertainty. | [Results guide](examples/zhang-xue/results/README.md) |
 | Setup and attribution | Installation and usage instructions, the repository license, and third-party notices. | [Usage guide](docs/USAGE.md) · [License](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md) |
 
@@ -28,6 +28,6 @@ Read the [case guide](examples/zhang-xue/README.md) and [progress report](exampl
 
 ## Evidence and rights
 
-The case presents a provisional analytical account, not a confirmed theoretical finding or an evaluation demonstrating the effectiveness of AI assistance. Source metadata, translation status, report claims, and researcher validation are distinct evidence layers.
+The case presents a provisional analytical account, not a confirmed theoretical finding or an evaluation demonstrating the effectiveness of AI assistance. Source provenance, analytical interpretations, and researcher validation are documented separately.
 
-Third-party news articles and their translations are not licensed by the repository MIT license. Original sources and collection scope are documented in the [data guide](examples/zhang-xue/data/README.md). Attribution for bundled operational capabilities appears in [Third-party notices](THIRD_PARTY_NOTICES.md).
+Third-party source materials are not covered by the repository MIT license. Original sources and collection scope are documented in the [data guide](examples/zhang-xue/data/README.md). Attribution for bundled operational capabilities appears in [Third-party notices](THIRD_PARTY_NOTICES.md).
