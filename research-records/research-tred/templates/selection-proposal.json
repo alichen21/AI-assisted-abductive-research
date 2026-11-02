@@ -1,0 +1,16 @@
+{
+  "schema": "research-tred-selection-proposal/v1",
+  "proposal_id": null,
+  "base_index": {"ref": "TRED/index.json", "state_version": null, "sha256": null},
+  "proposed_index_ref": null,
+  "proposed_index_sha256": null,
+  "current_before": [],
+  "current_after": [],
+  "focus_before": {"research_question": null, "hunch": null},
+  "focus_after": {"research_question": null, "hunch": null},
+  "reason_event_id": null,
+  "supporting_artifact_refs": [],
+  "approval_event_id": null,
+  "application_event_id": null,
+  "status": "proposed"
+}

@@ -1,0 +1,28 @@
+{
+  "update_id": null,
+  "proposal_version": 1,
+  "source_episode_id": null,
+  "related_finding_ids": [],
+  "related_revision_ids": [],
+  "operation": "Add",
+  "target_research_state_element": {
+    "semantic_target": null,
+    "existing_element_id": null,
+    "resolved_path": null
+  },
+  "base_state": {
+    "artifact_ref": null,
+    "version": null,
+    "sha256": null
+  },
+  "previous_value": null,
+  "previous_value_known": false,
+  "proposed_value": null,
+  "reason_for_update": null,
+  "supporting_artifacts": [],
+  "related_human_feedback_ids": [],
+  "approval_status": "Pending",
+  "application_status": "NotApplied",
+  "mapping_status": "Unmapped",
+  "supersedes_update_id": null
+}

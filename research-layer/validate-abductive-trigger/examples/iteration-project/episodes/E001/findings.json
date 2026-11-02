@@ -1,0 +1,95 @@
+[
+  {
+    "finding_id": "F001",
+    "revision_id": "REV001",
+    "previous_revision_id": null,
+    "source_episode_id": "E001",
+    "related_lens": "Signaling theory (synthetic example)",
+    "finding_description": "Preserving the possibility of cooperation while delaying irreversible investment is not adequately covered by the signaling explanation reviewed in this episode.",
+    "assessment_type": "Candidate Novelty",
+    "novelty_scope": "lens_specific",
+    "theoretical_justification": "L-DEMO-01 addresses observable signals and interpretation but not waiting for a milestone before investment; this does not establish noncoverage by all literature.",
+    "empirical_justification": "C001 records deferred equipment investment; C002 links orders to the testing milestone.",
+    "observable_implication_ids": [
+      "E001-I01"
+    ],
+    "comparison_ids": [
+      "E001-CMP01"
+    ],
+    "literature_references": [
+      {
+        "source_id": "L-DEMO-01",
+        "artifact_ref": "literature/L-DEMO-01.md",
+        "locator": "Synthetic explanatory passage"
+      }
+    ],
+    "empirical_evidence_references": [
+      {
+        "code_id": "C001",
+        "source_ref": "empirical/raw-data/source-demo.md",
+        "locator": "P1"
+      },
+      {
+        "code_id": "C002",
+        "source_ref": "empirical/raw-data/source-demo.md",
+        "locator": "P2"
+      }
+    ],
+    "remaining_uncertainty": [
+      "Adjacent explanations such as real options may cover it; they have not yet been checked"
+    ],
+    "preliminary_relevance": {
+      "who_cares": "Researchers of cooperation commitments",
+      "why": "Distinguishes information display from investment decisions",
+      "degree": "Bounded and provisional; coverage by adjacent theory reduces novelty",
+      "uncertainty": "Adjacent explanations require checking"
+    },
+    "review_status": "Pending",
+    "related_feedback_ids": [],
+    "related_finding_ids": []
+  },
+  {
+    "finding_id": "F002",
+    "revision_id": "REV-F002-001",
+    "previous_revision_id": null,
+    "source_episode_id": "E001",
+    "related_lens": "Signaling theory (synthetic example)",
+    "finding_description": "Current materials do not establish whether the agreement changed the partner’s quality evaluation.",
+    "assessment_type": "Unresolved",
+    "novelty_scope": null,
+    "theoretical_justification": "The signaling explanation requires audience interpretation; only the signatory’s account is available.",
+    "empirical_justification": "C001/C002 do not record the partner’s own evaluation.",
+    "observable_implication_ids": [
+      "E001-I01"
+    ],
+    "comparison_ids": [
+      "E001-CMP01"
+    ],
+    "literature_references": [
+      {
+        "source_id": "L-DEMO-01",
+        "artifact_ref": "literature/L-DEMO-01.md",
+        "locator": "Synthetic explanatory passage"
+      }
+    ],
+    "empirical_evidence_references": [
+      {
+        "code_id": "C001",
+        "source_ref": "empirical/raw-data/source-demo.md",
+        "locator": "P1"
+      },
+      {
+        "code_id": "C002",
+        "source_ref": "empirical/raw-data/source-demo.md",
+        "locator": "P2"
+      }
+    ],
+    "remaining_uncertainty": [
+      "Evidence of audience interpretation is missing"
+    ],
+    "preliminary_relevance": null,
+    "review_status": "Pending",
+    "related_feedback_ids": [],
+    "related_finding_ids": []
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "episode_id": "E-DEMO",
+  "step_id": "problem-review",
+  "run_id": "RUN-DEMO",
+  "input_objects": [
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "version": "v001",
+      "role": "previous_question"
+    },
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "version": "v002",
+      "role": "current_question"
+    },
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-02",
+      "version": "v001",
+      "role": "candidate_branch"
+    }
+  ],
+  "input_artifacts": [],
+  "known_observation_exposure": [
+    "Synthetic structure demonstration; no claim of actual prediction testing or a blind test."
+  ],
+  "previous_step_ref": null,
+  "history_event_id": null
+}

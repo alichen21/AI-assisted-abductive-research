@@ -1,0 +1,43 @@
+{
+  "update_id": "U001",
+  "proposal_version": 1,
+  "source_episode_id": "E002",
+  "related_finding_ids": [
+    "F001"
+  ],
+  "related_revision_ids": [
+    "REV002"
+  ],
+  "operation": "Add",
+  "target_research_state_element": {
+    "semantic_target": "Retain a bounded explanation of intended commitment and deferred investment in current research understanding",
+    "existing_element_id": null,
+    "resolved_path": null
+  },
+  "base_state": {
+    "artifact_ref": null,
+    "version": null,
+    "sha256": null
+  },
+  "previous_value": null,
+  "previous_value_known": false,
+  "proposed_value": {
+    "summary": "The adjacent explanation examined here covers the observation; it no longer warrants a broader novelty claim.",
+    "status": "bounded_assessment"
+  },
+  "reason_for_update": "Following FB001 and further checking, F001 becomes Covered. The researcher accepts the analysis but explicitly postpones any formal State change.",
+  "supporting_artifacts": [
+    "episodes/E002/findings.json",
+    "episodes/E002/assessment.md",
+    "episodes/E001/feedback/FB001.json",
+    "episodes/E002/feedback/FB002.json"
+  ],
+  "related_human_feedback_ids": [
+    "FB001",
+    "FB002"
+  ],
+  "approval_status": "Pending",
+  "application_status": "NotApplied",
+  "mapping_status": "Unmapped",
+  "supersedes_update_id": null
+}

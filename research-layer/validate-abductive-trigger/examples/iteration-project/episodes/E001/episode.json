@@ -1,0 +1,72 @@
+{
+  "episode_id": "E001",
+  "candidate_lens": {
+    "name": "Signaling theory",
+    "source": "Researcher",
+    "selection_reason": "The researcher selected the initial lens",
+    "proposed_by_episode_id": null
+  },
+  "search_objective": "Examine existing explanations of intentions and resource commitments",
+  "triggering_event_id": null,
+  "parent_episode_id": null,
+  "target_finding_ids": [],
+  "feedback_ids": [],
+  "continuation_authority_ref": null,
+  "evidence_base": {
+    "id": "EB-DEMO",
+    "version": "v1",
+    "manifest_ref": "empirical/evidence-base.json",
+    "artifact_bindings": [
+      {
+        "path": "empirical/evidence-base.json",
+        "sha256": "cb973f864e38af1c69a38bb2b41f1b8bb0b9e131ec3d25d8050273bd545fd627"
+      },
+      {
+        "path": "empirical/first-order-codes.md",
+        "sha256": "405acd41281effeea97643eb32784ec0e6cc5bdd250da183a7d36cacc9a4f1db"
+      },
+      {
+        "path": "empirical/coding-coverage.json",
+        "sha256": "5353430056797e90ba2084d3586a5e03e63682f0ae7529038b4aa096ce4a83e7"
+      },
+      {
+        "path": "empirical/case-context.md",
+        "sha256": "84912fcbda14f631ed15559ee18957cf79ba2ff605bb26ef8b4433b130a7ba97"
+      },
+      {
+        "path": "empirical/source-index.md",
+        "sha256": "5c44b88c1166d876823dc644cfc988794a471a48a53f16e2dc590ba6b62d9ac6"
+      }
+    ]
+  },
+  "research_context_ref": "empirical/case-context.md",
+  "research_hunch_ref": "empirical/case-context.md",
+  "state_baseline": {
+    "artifact_ref": null,
+    "version": null,
+    "sha256": null
+  },
+  "execution": {
+    "skill_version": "0.3.0",
+    "model": "synthetic_example",
+    "prompt_version": "example.v1",
+    "prompt_ref": "episodes/E001/request.md",
+    "tools": [
+      {
+        "method": "synthetic_local_fixture",
+        "external_invocation": false
+      }
+    ]
+  },
+  "observation_exposure": {
+    "mode": "limited_context",
+    "known_before_step3": [
+      "Hunch and case background"
+    ],
+    "implications_frozen_at": "2026-10-31T10:05:00+09:00"
+  },
+  "step_artifacts": {},
+  "finding_ids": [],
+  "episode_status": "started",
+  "created_at": "2026-10-31T10:00:00+09:00"
+}

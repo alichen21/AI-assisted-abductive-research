@@ -1,0 +1,14 @@
+{
+  "schema": "research-step-result/v1",
+  "episode_id": null,
+  "step_id": null,
+  "run_id": null,
+  "input_manifest_ref": null,
+  "output_artifacts": [],
+  "actual_read_refs": [],
+  "reasoning_summary": null,
+  "conditions_checked": [],
+  "limitations": [],
+  "status": "partial",
+  "history_event_id": null
+}

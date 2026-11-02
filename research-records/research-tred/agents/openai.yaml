@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRED Research Content and Versions"
+  short_description: "Organize TRED versions and prepare fixed step inputs."
+  default_prompt: "Use $research-tred under this project's routing to organize research content and exact versions, distinguish revisions of the same question from new branches, link changes to History, and prepare step inputs as needed. Present a concrete proposal before formal adoption."

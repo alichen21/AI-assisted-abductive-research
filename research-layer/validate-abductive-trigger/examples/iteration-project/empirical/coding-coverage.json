@@ -1,0 +1,25 @@
+{
+  "evidence_base_id": "EB-DEMO",
+  "version": "v1",
+  "scope": "P1/P2 of synthetic source S-DEMO-01",
+  "source_counts": {
+    "in_scope": 1,
+    "processed": 1,
+    "pending": 0,
+    "blocked": 0,
+    "excluded": 0,
+    "duplicates": 0
+  },
+  "segment_counts": {
+    "in_scope": 2,
+    "processed": 2,
+    "pending": 0,
+    "blocked": 0,
+    "reviewed_no_code": 0
+  },
+  "item_records_ref": "empirical/processing-records.md",
+  "remaining_ids": [],
+  "duplicate_links": [],
+  "segmentation_check": "Both P1/P2 checked against the complete synthetic source",
+  "complete": true
+}

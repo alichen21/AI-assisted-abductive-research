@@ -1,0 +1,45 @@
+{
+  "event_schema": "validate-abductive-trigger/v1",
+  "event_id": null,
+  "event_type": "step_completed",
+  "timestamp": null,
+  "actor": "AI",
+  "episode_id": null,
+  "finding_ids": [],
+  "feedback_ids": [],
+  "revision_ids": [],
+  "artifact_refs": [],
+  "record_key": null,
+  "details": {},
+  "collaboration": {
+    "summary": null,
+    "rationale": null,
+    "capture_mode": "contemporaneous",
+    "occurred_at": null,
+    "source_refs": [],
+    "targets": [],
+    "contribution_role": "unknown",
+    "action_status": "unknown",
+    "related_event_ids": [],
+    "model": {
+      "provider": null,
+      "model_id": null,
+      "model_version": null,
+      "requested_model": null,
+      "provenance": "unknown",
+      "source_ref": null
+    },
+    "skills": [],
+    "recorder": {
+      "actor": "AI",
+      "model": {
+        "provider": null,
+        "model_id": null,
+        "model_version": null,
+        "requested_model": null,
+        "provenance": "unknown",
+        "source_ref": null
+      }
+    }
+  }
+}

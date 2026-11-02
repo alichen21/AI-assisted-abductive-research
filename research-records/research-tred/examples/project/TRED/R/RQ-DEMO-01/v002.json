@@ -1,0 +1,15 @@
+{
+  "schema": "research-tred-object/v1",
+  "area": "R",
+  "object_id": "RQ-DEMO-01",
+  "kind": "research_question",
+  "title": "Focused version of the same question",
+  "version": "v002",
+  "previous_version": "v001",
+  "derived_from": [],
+  "content_ref": "TRED/R/RQ-DEMO-01/v002.md",
+  "content_locator": null,
+  "content_sha256": "d42c714460257eba13669aca34629ea112cd408373789ddbefca916989dce9e6",
+  "source_refs": [],
+  "history_event_id": "EV-DEMO-Q2"
+}

@@ -1,0 +1,71 @@
+{
+  "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha": "5178dce6419cee412155e7b9dd523d5b2ef703f5"
+    },
+    {
+      "path": "assets/review_template.md",
+      "sha": "d4188470de723bc75d617b8aaf2fb47a0b65dce4"
+    },
+    {
+      "path": "references/citation_styles.md",
+      "sha": "a12c1f8a6dc1a93abfe3c7d74b198062176ce3cf"
+    },
+    {
+      "path": "references/core_workflow.md",
+      "sha": "6a0bab11cd67d05dd683576f512b2045d85c826b"
+    },
+    {
+      "path": "references/database_strategies.md",
+      "sha": "ed342f27145805ad585ba260c75d60678b60ac20"
+    },
+    {
+      "path": "references/example_workflow.md",
+      "sha": "521308758c8847254edb1d62ad242e982f00dbe5"
+    },
+    {
+      "path": "references/search_and_citation.md",
+      "sha": "ed27ee9d24c9cef3381cc414834dda7d69a4a019"
+    },
+    {
+      "path": "scripts/generate_pdf.py",
+      "sha": "dea8d556e808c006c911131ee761b2bd1ae8ecc0"
+    },
+    {
+      "path": "scripts/generate_schematic.py",
+      "sha": "10aacec40261d1dfb4c51c406e1d12590ab865bb"
+    },
+    {
+      "path": "scripts/generate_schematic_ai.py",
+      "sha": "a7f586678624e23fb70b271188b70fa539d8fc99"
+    },
+    {
+      "path": "scripts/search_databases.py",
+      "sha": "d14e3202055844ea47a4d19b8b5ceeb4321dceab"
+    },
+    {
+      "path": "scripts/verify_citations.py",
+      "sha": "39fb278f7896e275784f7ea23ba395b1929863e5"
+    }
+  ],
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_path": "skills/literature-review",
+  "upstream_skill_version": "1.11",
+  "modifications": [
+    {
+      "path": "SKILL.md",
+      "change": "Local version/date; require shared coverage/recency protocol and scoped handoffs; allow available search tools instead of restricting discovery to shell tools. Preserve compatibility notes under metadata for the Codex skill schema."
+    },
+    {
+      "path": "references/core_workflow.md",
+      "change": "Apply coverage/recency protocol; fixed-date and small-result examples are not defaults."
+    },
+    {
+      "path": "references/coverage_and_recency.md",
+      "change": "New local protocol: rolling recent windows, current-year/early-access checks, complementary discovery, adjustable breadth, expansion/stopping rationale, coverage records."
+    }
+  ],
+  "local_skill_version": "1.11.1"
+}

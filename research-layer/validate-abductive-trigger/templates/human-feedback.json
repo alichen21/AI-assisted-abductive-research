@@ -1,0 +1,17 @@
+{
+  "feedback_id": null,
+  "source_episode_id": null,
+  "target_finding_id": null,
+  "target_revision_id": null,
+  "researcher_decision": null,
+  "original_researcher_comments": null,
+  "researcher_feedback_summary": null,
+  "source_ref": null,
+  "reason_for_decision": null,
+  "alternative_explanation": null,
+  "suggested_next_action": null,
+  "continue_search": false,
+  "continuation_authority_ref": null,
+  "timestamp": null,
+  "history_event_id": null
+}

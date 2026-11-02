@@ -1,0 +1,21 @@
+{
+  "schema": "research-tred-object/v1",
+  "area": "R",
+  "object_id": "RQ-DEMO-01",
+  "kind": "research_question",
+  "title": "Initial research question",
+  "version": "v001",
+  "previous_version": null,
+  "derived_from": [
+    {
+      "area": "R",
+      "object_id": "H-DEMO",
+      "version": "v001"
+    }
+  ],
+  "content_ref": "TRED/R/RQ-DEMO-01/v001.md",
+  "content_locator": null,
+  "content_sha256": "bb4ae0618bfaf80673dc0ddfdc7f7bef74ae91bd5be10edde2e81ba889d55931",
+  "source_refs": [],
+  "history_event_id": "EV-DEMO-Q1"
+}

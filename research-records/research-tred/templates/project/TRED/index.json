@@ -1,0 +1,10 @@
+{
+  "schema": "research-tred/v1",
+  "project_id": null,
+  "state_version": 0,
+  "history_ref": "history/events.jsonl",
+  "objects": [],
+  "current": [],
+  "focus": {"research_question": null, "hunch": null},
+  "last_update_event_id": null
+}

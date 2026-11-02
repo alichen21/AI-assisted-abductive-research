@@ -1,0 +1,66 @@
+{
+  "episode_id": null,
+  "candidate_lens": {
+    "name": null,
+    "source": "Researcher",
+    "selection_reason": null,
+    "proposed_by_episode_id": null
+  },
+  "search_objective": null,
+  "triggering_event_id": null,
+  "parent_episode_id": null,
+  "target_finding_ids": [],
+  "feedback_ids": [],
+  "continuation_authority_ref": null,
+  "evidence_base": null,
+  "research_context_ref": null,
+  "research_hunch_ref": null,
+  "state_baseline": {
+    "artifact_ref": null,
+    "version": null,
+    "sha256": null
+  },
+  "execution": {
+    "skill_version": "0.4.9",
+    "model": "unknown",
+    "prompt_version": "unknown",
+    "prompt_ref": null,
+    "request_summary_ref": "request.md",
+    "tools": []
+  },
+  "observation_exposure": {
+    "mode": "retrospective",
+    "known_before_step3": [],
+    "implications_frozen_at": null
+  },
+  "step_artifacts": {
+    "literature_review": null,
+    "theoretical_explanations": null,
+    "observable_implications": null,
+    "theory_observation_comparison": null,
+    "candidate_search": null,
+    "assessment": null
+  },
+  "finding_ids": [],
+  "episode_status": "started",
+  "created_at": null,
+  "empirical_inputs": {
+    "input_set_id": null,
+    "version": null,
+    "manifest_ref": null,
+    "artifact_bindings": []
+  },
+  "prediction_baseline": {
+    "artifact_ref": null,
+    "sha256": null,
+    "freeze_event_id": null
+  },
+  "tred_baseline": {
+    "index_ref": null,
+    "state_version": null,
+    "snapshot_ref": null,
+    "sha256": null
+  },
+  "step_input_manifest_refs": [],
+  "step_result_manifest_refs": []
+}

@@ -1,0 +1,22 @@
+{
+  "episode_id": "E001",
+  "episode_status": "awaiting_review",
+  "step_artifacts": {
+    "1": "episodes/E001/literature-review.md",
+    "2": "episodes/E001/theoretical-explanations.md",
+    "3": "episodes/E001/observable-implications.md",
+    "4": "episodes/E001/theory-observation-comparison.md",
+    "5": "episodes/E001/findings.json"
+  },
+  "finding_ids": [
+    "F001",
+    "F002"
+  ],
+  "execution_status": "synthetic_example_only",
+  "search_limitations": [
+    "No actual external search; synthetic materials illustrate records and iteration only"
+  ],
+  "state_change": "no_state_change",
+  "no_state_change_reason": "The original candidate judgment still awaits human evaluation",
+  "timestamp": "2026-10-31T10:09:00+09:00"
+}

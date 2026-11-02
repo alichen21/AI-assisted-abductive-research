@@ -1,0 +1,18 @@
+{
+  "adapter_profile": "unconfigured",
+  "project_root": null,
+  "repository_root": null,
+  "research_state_ref": null,
+  "history_ref": "history/events.jsonl",
+  "history_writer": {
+    "profile": "standalone",
+    "native_helper_ref": null
+  },
+  "state_writer": {
+    "profile": "proposal_only",
+    "native_helper_ref": null,
+    "schema_ref": null,
+    "mapping_ref": null
+  },
+  "status": "requires_project_configuration"
+}

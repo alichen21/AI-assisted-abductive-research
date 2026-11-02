@@ -1,0 +1,76 @@
+{
+  "event_schema": "validate-abductive-trigger/v1",
+  "event_id": "EV-SYNTHETIC-FEEDBACK",
+  "event_type": "human_feedback_submitted",
+  "timestamp": "2026-01-01T00:00:00+00:00",
+  "actor": "Researcher",
+  "episode_id": "E-DEMO",
+  "finding_ids": [
+    "F-DEMO"
+  ],
+  "feedback_ids": [
+    "FB-DEMO"
+  ],
+  "revision_ids": [
+    "REV-DEMO-01"
+  ],
+  "artifact_refs": [],
+  "record_key": "synthetic:feedback:FB-DEMO",
+  "details": {
+    "feedback_id": "FB-DEMO",
+    "target_finding_id": "F-DEMO",
+    "target_revision_id": "REV-DEMO-01",
+    "researcher_decision": "Challenge",
+    "reason_for_decision": "Synthetic demonstration: observations at organizational and individual levels were mixed.",
+    "continue_search": false
+  },
+  "collaboration": {
+    "summary": "Synthetic demonstration: the researcher challenges F-DEMO for mixing organizational and individual levels, without yet requesting further checking.",
+    "rationale": "Observations at organizational and individual levels were mixed.",
+    "capture_mode": "contemporaneous",
+    "occurred_at": null,
+    "source_refs": [
+      {
+        "kind": "current_context",
+        "ref": null,
+        "note": "Entirely synthetic feedback demonstration, not real research input or approval."
+      }
+    ],
+    "targets": [
+      {
+        "type": "finding",
+        "id": "F-DEMO",
+        "revision": "REV-DEMO-01",
+        "label": "Synthetic candidate judgment"
+      }
+    ],
+    "contribution_role": "reviewed",
+    "action_status": "completed",
+    "related_event_ids": [],
+    "model": {
+      "provider": null,
+      "model_id": null,
+      "model_version": null,
+      "requested_model": null,
+      "provenance": "unknown",
+      "source_ref": null
+    },
+    "skills": [
+      {
+        "name": "validate-abductive-trigger",
+        "version": "0.4.5"
+      }
+    ],
+    "recorder": {
+      "actor": "AI",
+      "model": {
+        "provider": null,
+        "model_id": null,
+        "model_version": null,
+        "requested_model": null,
+        "provenance": "unknown",
+        "source_ref": null
+      }
+    }
+  }
+}

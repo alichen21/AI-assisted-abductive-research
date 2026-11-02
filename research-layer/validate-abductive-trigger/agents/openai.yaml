@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Abductive Trigger"
+  short_description: "Identify and examine potential abductive triggers."
+  default_prompt: "Use $validate-abductive-trigger to independently extract abstract arguments from literature, derive and preserve case predictions from necessary background, then check supporting and contrary evidence, discrepancies, and potential novelty prediction by prediction. Do not code first or fit theories backward from data. Present a readable English report and await my evaluation."

@@ -1,0 +1,80 @@
+{
+  "actor": "Researcher",
+  "artifact_bindings": [
+    {
+      "path": "TRED/R/H-DEMO/v001.json",
+      "sha256": "bb7488042cd1af250fa022377f638c01749520239b376af550b6a52d0f2c0913"
+    },
+    {
+      "path": "TRED/R/H-DEMO/v001.md",
+      "sha256": "0eacfb92898dc9c40776e17e1f9aae373e4b2590fa0e23b17b92bca3fbde8f90"
+    }
+  ],
+  "artifact_refs": [
+    "TRED/R/H-DEMO/v001.json",
+    "TRED/R/H-DEMO/v001.md"
+  ],
+  "collaboration": {
+    "action_status": "completed",
+    "capture_mode": "contemporaneous",
+    "contribution_role": "proposed",
+    "model": {
+      "model_id": null,
+      "model_version": null,
+      "provenance": "unknown",
+      "provider": null,
+      "requested_model": null,
+      "source_ref": null
+    },
+    "occurred_at": null,
+    "rationale": null,
+    "recorder": {
+      "actor": "AI",
+      "model": {
+        "model_id": null,
+        "model_version": null,
+        "provenance": "unknown",
+        "provider": null,
+        "requested_model": null,
+        "source_ref": null
+      }
+    },
+    "related_event_ids": [],
+    "skills": [
+      {
+        "name": "research-tred",
+        "version": "0.1.0"
+      }
+    ],
+    "source_refs": [
+      {
+        "kind": "current_context",
+        "note": "Entirely synthetic structure demonstration, not real research input, proof of AI execution, or human approval.",
+        "ref": null
+      }
+    ],
+    "summary": "Synthetic demonstration: the initial research hunch is saved; its complete formulation is in this R version.",
+    "targets": []
+  },
+  "details": {
+    "object_refs": [
+      {
+        "area": "R",
+        "content_ref": "TRED/R/H-DEMO/v001.md",
+        "metadata_ref": "TRED/R/H-DEMO/v001.json",
+        "object_id": "H-DEMO",
+        "role": "created",
+        "version": "v001"
+      }
+    ]
+  },
+  "episode_id": null,
+  "event_id": "EV-DEMO-H1",
+  "event_schema": "research-collaboration/v1",
+  "event_type": "research_action",
+  "feedback_ids": [],
+  "finding_ids": [],
+  "record_key": "synthetic:EV-DEMO-H1",
+  "revision_ids": [],
+  "timestamp": "2026-01-01T00:00:00+00:00"
+}

@@ -1,0 +1,80 @@
+{
+  "actor": "AI",
+  "artifact_bindings": [
+    {
+      "path": "TRED/R/RQ-DEMO-01/v001.json",
+      "sha256": "9d9b5447a1ef1866c056a8c32a79f3f86b2270ed2066917091c348c03c60b8b1"
+    },
+    {
+      "path": "TRED/R/RQ-DEMO-01/v001.md",
+      "sha256": "bb4ae0618bfaf80673dc0ddfdc7f7bef74ae91bd5be10edde2e81ba889d55931"
+    }
+  ],
+  "artifact_refs": [
+    "TRED/R/RQ-DEMO-01/v001.json",
+    "TRED/R/RQ-DEMO-01/v001.md"
+  ],
+  "collaboration": {
+    "action_status": "completed",
+    "capture_mode": "contemporaneous",
+    "contribution_role": "proposed",
+    "model": {
+      "model_id": null,
+      "model_version": null,
+      "provenance": "unknown",
+      "provider": null,
+      "requested_model": null,
+      "source_ref": null
+    },
+    "occurred_at": null,
+    "rationale": null,
+    "recorder": {
+      "actor": "AI",
+      "model": {
+        "model_id": null,
+        "model_version": null,
+        "provenance": "unknown",
+        "provider": null,
+        "requested_model": null,
+        "source_ref": null
+      }
+    },
+    "related_event_ids": [],
+    "skills": [
+      {
+        "name": "research-tred",
+        "version": "0.1.0"
+      }
+    ],
+    "source_refs": [
+      {
+        "kind": "current_context",
+        "note": "Entirely synthetic structure demonstration, not real research input, proof of AI execution, or human approval.",
+        "ref": null
+      }
+    ],
+    "summary": "Synthetic demonstration: the initial research question is saved; its complete formulation is in this R version.",
+    "targets": []
+  },
+  "details": {
+    "object_refs": [
+      {
+        "area": "R",
+        "content_ref": "TRED/R/RQ-DEMO-01/v001.md",
+        "metadata_ref": "TRED/R/RQ-DEMO-01/v001.json",
+        "object_id": "RQ-DEMO-01",
+        "role": "created",
+        "version": "v001"
+      }
+    ]
+  },
+  "episode_id": null,
+  "event_id": "EV-DEMO-Q1",
+  "event_schema": "research-collaboration/v1",
+  "event_type": "research_action",
+  "feedback_ids": [],
+  "finding_ids": [],
+  "record_key": "synthetic:EV-DEMO-Q1",
+  "revision_ids": [],
+  "timestamp": "2026-01-01T00:00:00+00:00"
+}

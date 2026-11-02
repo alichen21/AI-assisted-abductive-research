@@ -1,0 +1,80 @@
+{
+  "actor": "AI",
+  "artifact_bindings": [
+    {
+      "path": "TRED/R/RQ-DEMO-02/v001.json",
+      "sha256": "3e6bfabd467c9c0513ccddc3d19d3dabb22b425cd6e5856c28f3eee717a8af69"
+    },
+    {
+      "path": "TRED/R/RQ-DEMO-02/v001.md",
+      "sha256": "81c41d20eed4874ac1a3bf7a35b690c61dde6e8ce21cf01ab4c7b483e99f9318"
+    }
+  ],
+  "artifact_refs": [
+    "TRED/R/RQ-DEMO-02/v001.json",
+    "TRED/R/RQ-DEMO-02/v001.md"
+  ],
+  "collaboration": {
+    "action_status": "completed",
+    "capture_mode": "contemporaneous",
+    "contribution_role": "proposed",
+    "model": {
+      "model_id": null,
+      "model_version": null,
+      "provenance": "unknown",
+      "provider": null,
+      "requested_model": null,
+      "source_ref": null
+    },
+    "occurred_at": null,
+    "rationale": null,
+    "recorder": {
+      "actor": "AI",
+      "model": {
+        "model_id": null,
+        "model_version": null,
+        "provenance": "unknown",
+        "provider": null,
+        "requested_model": null,
+        "source_ref": null
+      }
+    },
+    "related_event_ids": [],
+    "skills": [
+      {
+        "name": "research-tred",
+        "version": "0.1.0"
+      }
+    ],
+    "source_refs": [
+      {
+        "kind": "current_context",
+        "note": "Entirely synthetic structure demonstration, not real research input, proof of AI execution, or human approval.",
+        "ref": null
+      }
+    ],
+    "summary": "Synthetic demonstration: an independent question branch is saved; its complete formulation is in this R version.",
+    "targets": []
+  },
+  "details": {
+    "object_refs": [
+      {
+        "area": "R",
+        "content_ref": "TRED/R/RQ-DEMO-02/v001.md",
+        "metadata_ref": "TRED/R/RQ-DEMO-02/v001.json",
+        "object_id": "RQ-DEMO-02",
+        "role": "created",
+        "version": "v001"
+      }
+    ]
+  },
+  "episode_id": null,
+  "event_id": "EV-DEMO-BRANCH",
+  "event_schema": "research-collaboration/v1",
+  "event_type": "research_action",
+  "feedback_ids": [],
+  "finding_ids": [],
+  "record_key": "synthetic:EV-DEMO-BRANCH",
+  "revision_ids": [],
+  "timestamp": "2026-01-01T00:00:00+00:00"
+}

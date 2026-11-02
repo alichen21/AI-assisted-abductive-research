@@ -1,0 +1,15 @@
+{
+  "schema": "research-tred-object/v1",
+  "area": null,
+  "object_id": null,
+  "kind": null,
+  "title": null,
+  "version": "v001",
+  "previous_version": null,
+  "derived_from": [],
+  "content_ref": null,
+  "content_locator": null,
+  "content_sha256": null,
+  "source_refs": [],
+  "history_event_id": null
+}

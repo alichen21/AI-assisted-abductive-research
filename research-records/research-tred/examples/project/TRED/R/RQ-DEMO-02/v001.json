@@ -1,0 +1,21 @@
+{
+  "schema": "research-tred-object/v1",
+  "area": "R",
+  "object_id": "RQ-DEMO-02",
+  "kind": "research_question",
+  "title": "Independent new question branch",
+  "version": "v001",
+  "previous_version": null,
+  "derived_from": [
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "version": "v001"
+    }
+  ],
+  "content_ref": "TRED/R/RQ-DEMO-02/v001.md",
+  "content_locator": null,
+  "content_sha256": "81c41d20eed4874ac1a3bf7a35b690c61dde6e8ce21cf01ab4c7b483e99f9318",
+  "source_refs": [],
+  "history_event_id": "EV-DEMO-BRANCH"
+}

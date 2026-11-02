@@ -1,0 +1,10 @@
+{
+  "episode_id": null,
+  "step_id": null,
+  "run_id": null,
+  "input_objects": [],
+  "input_artifacts": [],
+  "known_observation_exposure": [],
+  "previous_step_ref": null,
+  "history_event_id": null
+}

@@ -1,0 +1,26 @@
+{
+  "evidence_base_id": "EB-DEMO",
+  "version": "v1",
+  "status": "ready",
+  "scope": "Synthetic technical cooperation incident, P1/P2",
+  "case_context_ref": "empirical/case-context.md",
+  "codes_ref": "empirical/first-order-codes.md",
+  "coverage_ref": "empirical/coding-coverage.json",
+  "source_index_ref": "empirical/source-index.md",
+  "processing_records_ref": "empirical/processing-records.md",
+  "review_status": "ai_draft",
+  "artifact_bindings": [
+    {
+      "path": "empirical/first-order-codes.md",
+      "sha256": "405acd41281effeea97643eb32784ec0e6cc5bdd250da183a7d36cacc9a4f1db"
+    },
+    {
+      "path": "empirical/coding-coverage.json",
+      "sha256": "5353430056797e90ba2084d3586a5e03e63682f0ae7529038b4aa096ce4a83e7"
+    },
+    {
+      "path": "empirical/raw-data/source-demo.md",
+      "sha256": "6a65c59674cc5373f7f3c27c35e3478b53bd5e77dcdb0605d987f48c93fb61a4"
+    }
+  ]
+}

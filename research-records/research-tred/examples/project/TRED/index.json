@@ -1,0 +1,69 @@
+{
+  "schema": "research-tred/v1",
+  "project_id": "SYNTHETIC-TRED-DEMO",
+  "state_version": 1,
+  "history_ref": "history/events.jsonl",
+  "objects": [
+    {
+      "area": "R",
+      "object_id": "H-DEMO",
+      "kind": "research_hunch",
+      "title": "Initial research hunch",
+      "version": "v001",
+      "metadata_ref": "TRED/R/H-DEMO/v001.json",
+      "status": "adopted"
+    },
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "kind": "research_question",
+      "title": "Initial research question",
+      "version": "v001",
+      "metadata_ref": "TRED/R/RQ-DEMO-01/v001.json",
+      "status": "superseded"
+    },
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "kind": "research_question",
+      "title": "Focused version of the same question",
+      "version": "v002",
+      "metadata_ref": "TRED/R/RQ-DEMO-01/v002.json",
+      "status": "adopted"
+    },
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-02",
+      "kind": "research_question",
+      "title": "Independent new question branch",
+      "version": "v001",
+      "metadata_ref": "TRED/R/RQ-DEMO-02/v001.json",
+      "status": "candidate"
+    }
+  ],
+  "current": [
+    {
+      "area": "R",
+      "object_id": "H-DEMO",
+      "version": "v001"
+    },
+    {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "version": "v002"
+    }
+  ],
+  "focus": {
+    "research_question": {
+      "area": "R",
+      "object_id": "RQ-DEMO-01",
+      "version": "v002"
+    },
+    "hunch": {
+      "area": "R",
+      "object_id": "H-DEMO",
+      "version": "v001"
+    }
+  },
+  "last_update_event_id": "EV-DEMO-APPLIED"
+}

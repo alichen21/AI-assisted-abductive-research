@@ -1,0 +1,48 @@
+[
+  {
+    "finding_id": "F001",
+    "revision_id": "REV002",
+    "previous_revision_id": "REV001",
+    "source_episode_id": "E002",
+    "related_lens": "Real options perspective (AI-proposed; synthetic example)",
+    "finding_description": "Under deferrable investment and testing-milestone conditions, the newly examined explanation covers preserving cooperation options while delaying investment.",
+    "assessment_type": "Covered",
+    "novelty_scope": null,
+    "theoretical_justification": "The conditional investment logic in L-DEMO-02 covers the previously unexplained action, supporting bounded coverage only.",
+    "empirical_justification": "C001 records deferred equipment investment; C002 links orders to the testing milestone.",
+    "observable_implication_ids": [
+      "E002-I01"
+    ],
+    "comparison_ids": [
+      "E002-CMP01"
+    ],
+    "literature_references": [
+      {
+        "source_id": "L-DEMO-02",
+        "artifact_ref": "literature/L-DEMO-02.md",
+        "locator": "Synthetic explanatory passage"
+      }
+    ],
+    "empirical_evidence_references": [
+      {
+        "code_id": "C001",
+        "source_ref": "empirical/raw-data/source-demo.md",
+        "locator": "P1"
+      },
+      {
+        "code_id": "C002",
+        "source_ref": "empirical/raw-data/source-demo.md",
+        "locator": "P2"
+      }
+    ],
+    "remaining_uncertainty": [
+      "Motives remain self-reported and cannot be generalized to all cooperation incidents"
+    ],
+    "preliminary_relevance": null,
+    "review_status": "Pending",
+    "related_feedback_ids": [
+      "FB001"
+    ],
+    "related_finding_ids": []
+  }
+]

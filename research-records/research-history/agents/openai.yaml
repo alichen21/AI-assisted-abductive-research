@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Collaboration History"
+  short_description: "Record research events and human–AI contributions."
+  default_prompt: "Use $research-history to record this round's research events and collaboration information together, preserving professional object links, contributions, and verifiable model versions. Reference existing events without duplicate summaries."

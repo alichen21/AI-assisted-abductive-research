@@ -1,0 +1,14 @@
+{
+  "feedback_id": "FB002",
+  "source_episode_id": "E002",
+  "target_finding_id": "F001",
+  "target_revision_id": "REV002",
+  "researcher_decision": "Accept",
+  "original_researcher_comments": "I accept this bounded revision of F001. Do not change the formal Research State yet.",
+  "reason_for_decision": null,
+  "alternative_explanation": null,
+  "suggested_next_action": "Preserve the revision and stop automatic search",
+  "continue_search": false,
+  "continuation_authority_ref": null,
+  "timestamp": "2026-10-31T10:20:00+09:00"
+}

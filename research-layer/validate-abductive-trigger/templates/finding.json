@@ -1,0 +1,21 @@
+{
+  "finding_id": null,
+  "revision_id": null,
+  "previous_revision_id": null,
+  "source_episode_id": null,
+  "related_lens": null,
+  "finding_description": null,
+  "assessment_type": "Unresolved",
+  "novelty_scope": null,
+  "theoretical_justification": null,
+  "empirical_justification": null,
+  "observable_implication_ids": [],
+  "comparison_ids": [],
+  "literature_references": [],
+  "empirical_evidence_references": [],
+  "remaining_uncertainty": [],
+  "preliminary_relevance": null,
+  "review_status": "Pending",
+  "related_feedback_ids": [],
+  "related_finding_ids": []
+}

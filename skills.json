@@ -1,0 +1,41 @@
+{
+  "name": "abductive-research",
+  "version": "0.8.7",
+  "language": "en",
+  "base": {
+    "archive": "validate-abductive-trigger-0.4.1-zh.zip",
+    "sha256": "651c8658aa8443f94b71bfa4f5cbe53c8c96ad00fe182f8cdbfffc8bcca437dd"
+  },
+  "skills": [
+    {
+      "name": "abductive-research",
+      "layer": "entry",
+      "path": "entry/abductive-research",
+      "version": "0.8.1"
+    },
+    {
+      "name": "validate-abductive-trigger",
+      "layer": "research",
+      "path": "research-layer/validate-abductive-trigger",
+      "version": "0.4.10"
+    },
+    {
+      "name": "literature-review",
+      "layer": "operation",
+      "path": "operation-layer/literature-review",
+      "version": "1.11.1"
+    },
+    {
+      "name": "research-history",
+      "layer": "records",
+      "path": "research-records/research-history",
+      "version": "0.3.1"
+    },
+    {
+      "name": "research-tred",
+      "layer": "records",
+      "path": "research-records/research-tred",
+      "version": "0.1.0"
+    }
+  ]
+}
