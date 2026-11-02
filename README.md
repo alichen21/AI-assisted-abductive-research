@@ -1,33 +1,33 @@
-# AI-Assisted Abductive Research
+# Supplementary Materials for AI-Assisted Abductive Research
 
-This repository develops a **search-based framework** to support abductive research and investigate whether, how, and under what conditions AI can assist abductive theorizing. The skills make research tasks and human–AI interactions available for examination.
+This repository brings together a research skill suite and an illustrative case of AI-assisted abductive inquiry. It accompanies the manuscript and provides an entry point to the toolkit, source materials, and current analytical outcome.
 
-## 1. A search-based framework
+## Repository contents
 
-Development focuses on research skills within three interconnected layers:
+| Component | What it contains | Start here |
+| --- | --- | --- |
+| Research skill suite | Five English-language skills, installation tools, workflows, scripts, templates, and synthetic demonstrations. | [Skill suite overview](SKILL-SUITE.md) |
+| Zhang Xue / ZX Moto example | An English source archive and a case progress report tracing a hunch through theory–evidence comparisons to a refined question. | [Illustrative case](examples/zhang-xue/README.md) |
+| Source data | The 29 supplied English article files, source metadata, and original publication links. | [Data guide](examples/zhang-xue/data/README.md) |
+| Provisional analytical outcome | The report and a short explanation of the current outcome and remaining uncertainty. | [Results guide](examples/zhang-xue/results/README.md) |
+| Setup and attribution | Installation and usage instructions, the repository license, and third-party notices. | [Usage guide](docs/USAGE.md) · [License](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md) |
 
-| Layer | Focus |
-|---|---|
-| **L1 — Theory–Problem Construction** | Formulate and revise theory–problem framings. The current **[Validate Abductive Trigger](research-layer/validate-abductive-trigger/SKILL.md)** skill examines puzzles for potential novelty or discrepancy. |
-| **L2 — Explanation–Evidence Search** | Develop and revise candidate explanations and engage with supporting and conflicting evidence. Planned skills include **foreign theory translation**, adapting theories from other domains to the focal phenomenon. |
-| **L3 — Diagnosis, Search Control, and IBE Evaluation** | Diagnose limitations, guide further inquiry, and compare explanations through **inference to the best explanation (IBE)**. These capabilities are planned for further development. |
+## Research skill suite
 
-The layers represent interconnected research responsibilities; inquiry can move between them as it develops.
+The suite includes Abductive Research, Validate Abductive Trigger, Literature Review, Research TRED, and Research History. The currently implemented research workflow focuses on assessing potential abductive triggers. Explanation generation and inference-to-the-best-explanation evaluation remain areas for further development.
 
-## 2. Recording human–AI interaction
+The existing [skill suite overview](SKILL-SUITE.md) describes the framework and research responsibilities. The [usage guide](docs/USAGE.md) covers installation and invocation. Skill files remain in `entry/`, `research-layer/`, `operation-layer/`, and `research-records/`; the installer remains at the repository root.
 
-**[TRED](research-records/research-tred/SKILL.md)** and **[History](research-records/research-history/SKILL.md)** together provide a research-process record, analogous to a laboratory notebook. They connect evolving theoretical perspectives (T), research problem representations (R), candidate explanations (E), and data and evidence (D) with step-specific inputs and outputs, researcher feedback, revisions, and decisions. Available AI model and skill version information is also recorded.
+## Illustrative case
 
-These records help identify **where and how humans and AI interact**: how a researcher’s hunch guides AI search, how AI findings prompt reconsideration, and how subsequent feedback changes the inquiry. This supports examination of their respective contributions to abductive theorizing, including productive moves and lines of inquiry that are revised or abandoned.
+The Zhang Xue / ZX Moto inquiry began with a researcher's hunch about repeated venture creation alongside a stated preference for making motorcycles over entrepreneurship. Using entrepreneurial identity formation as its main theoretical lens, the AI derived observable implications and compared them with archived observations.
 
-## 3. Current implementation and further development
+The current analytical outcome is a more focused working research question. The comparisons did not establish a confirmed abductive trigger. Existing theory could accommodate unequal enthusiasm for different entrepreneurial roles, while the meaning of sustained engagement in financing, organizing, control, and growth remained unresolved.
 
-The implemented research skill is **Validate Abductive Trigger** in L1. It connects literature-based theoretical arguments to preserved case-specific predictions, examines supporting and counter-evidence, and presents provisional assessments for researcher evaluation. A lightweight entry point, TRED, and History support its use and inspection.
+Read the [case guide](examples/zhang-xue/README.md) and [progress report](examples/zhang-xue/results/AI_Abductive_Case_Provisional_Findings_Zhang_Xue_EN_v2.docx) for the argument and its limits. The case can be read independently of installing the skills. Re-running the workflow constitutes a new inquiry and may produce different outputs.
 
-Further development will extend L2 through explanation generation and foreign theory translation, and L3 through diagnosis, search control, and IBE. The effectiveness of AI assistance remains to be assessed through research cases and comparative evaluation.
+## Evidence and rights
 
-## 4. Building on existing operational capabilities
+The case presents a provisional analytical account, not a confirmed theoretical finding or an evaluation demonstrating the effectiveness of AI assistance. Source metadata, translation status, report claims, and researcher validation are distinct evidence layers.
 
-Supporting capabilities build on existing work. The bundled **Literature Review** skill comes from [K-Dense Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills/tree/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/literature-review), with local coverage/recency adaptations in version 1.11.1 under the MIT license. Attribution and version details appear in [Third-Party Notices](THIRD_PARTY_NOTICES.md).
-
-Technical setup and invocation are covered in the [usage guide](docs/USAGE.md).
+Third-party news articles and their translations are not licensed by the repository MIT license. Original sources and collection scope are documented in the [data guide](examples/zhang-xue/data/README.md). Attribution for bundled operational capabilities appears in [Third-party notices](THIRD_PARTY_NOTICES.md).
